@@ -1,0 +1,18 @@
+{
+    "log":{
+        "level": 10,
+        "format": "%(name)s %(asctime)s %(levelname)s %(message)s"
+    },
+	"play":{
+		"volume": 95
+	},
+    "listening":{
+        "ignore_first_signals": 64,
+		"microphone_sensetivity": 100,
+		"allowed_noise_volume_max": 60,
+		"allowed_noise_volume_min": 20,
+		"avg_signal_delay": 30000,
+		"angry_up_delay": 30000,
+        "calm_down_delay": 120000
+    }
+}
